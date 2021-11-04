@@ -43,7 +43,7 @@ steps:
     xcodeVersion: '12' # Options: 8, 9, 10, 11, 12, default, specifyPath
     packageApp: true
     signingOption: 'manual'
-    provisioningProfileName: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
-    provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+    provisioningProfileName: 'BIHelloWorldRNProv'
+    provisioningProfileUuid: '18365c32-373e-4c05-9bfb-12db09a6574a'
     teamId: '$(TEAMID)'
 
