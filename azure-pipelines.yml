@@ -18,7 +18,7 @@ steps:
 - task: InstallAppleProvisioningProfile@1
   inputs:
     provisioningProfileLocation: 'secureFiles'
-    provProfileSecureFile: 'BIHelloWorldProv.mobileprovision'
+    provProfileSecureFile: 'BIHelloWorldRNProv.mobileprovision'
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
