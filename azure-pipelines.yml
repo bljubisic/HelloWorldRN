@@ -39,7 +39,7 @@ steps:
     scheme: ''
     sdk: 'iphoneos'
     configuration: 'Release'
-    xcWorkspacePath: 'ios/project.xcworkspace'
+    xcWorkspacePath: 'ios/HelloWorldRN.xcworkspace'
     xcodeVersion: '12' # Options: 8, 9, 10, 11, 12, default, specifyPath
     packageApp: true
     signingOption: 'manual'
