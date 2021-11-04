@@ -145,7 +145,6 @@
 				D1F6ECB4421829DC142DCEB2 /* Pods-HelloWorldRN-HelloWorldRNTests.debug.xcconfig */,
 				9CF56ACEF5EB6B665BCE0569 /* Pods-HelloWorldRN-HelloWorldRNTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -484,7 +483,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ENT89NLKC9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HelloWorldRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,8 +498,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persukibo.HelloWorldRN;
 				PRODUCT_NAME = HelloWorldRN;
+				PROVISIONING_PROFILE_SPECIFIER = BIHelloWorldRNProv;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,7 +513,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ENT89NLKC9;
 				INFOPLIST_FILE = HelloWorldRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,8 +527,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persukibo.HelloWorldRN;
 				PRODUCT_NAME = HelloWorldRN;
+				PROVISIONING_PROFILE_SPECIFIER = BIHelloWorldRNProv;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
