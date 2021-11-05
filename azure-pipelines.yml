@@ -16,11 +16,11 @@ steps:
   displayName: 'Install Node.js'
 - script: npm install
   displayName: 'Install dependencies'
-- task: CocoaPods@0
-  displayName: 'CocoaPods install'
-  inputs:
-    workingDirectory: 'ios'
-    forceRepoUpdate: false
+# - task: CocoaPods@0
+#   displayName: 'CocoaPods install'
+#   inputs:
+#     workingDirectory: 'ios'
+#     forceRepoUpdate: false
 - script: |
     cd ios
     pods install
