@@ -23,6 +23,8 @@ steps:
 #     forceRepoUpdate: false
 - script: |
     cd ios
+    pod --version
+    pod repo update
     pod install
   displayName: 'install pods'
 - task: InstallAppleCertificate@2
