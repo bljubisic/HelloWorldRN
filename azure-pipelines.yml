@@ -12,7 +12,7 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: '12.13'
   displayName: 'Install Node.js'
 # - task: CocoaPods@0
 #   displayName: 'CocoaPods install'
@@ -20,6 +20,7 @@ steps:
 #     workingDirectory: 'ios'
 #     forceRepoUpdate: false
 - script: |
+    npm -v
     npm install
     cd ios
     pod --version
