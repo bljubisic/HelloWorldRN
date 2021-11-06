@@ -42,7 +42,7 @@ steps:
   displayName: 'XCode build'
   inputs:
     actions: 'build'
-    scheme: ''
+    scheme: 'HelloWorldRN'
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: 'ios/HelloWorldRN.xcworkspace'
